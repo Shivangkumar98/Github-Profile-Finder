@@ -1,0 +1,84 @@
+h3{
+    color: black;
+}
+
+.card {
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+ 
+  .container {
+    padding: 4px 16px;
+    flex-wrap: wrap;
+  }
+  p{
+    box-shadow: inset;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    text-align: justify;
+    text-shadow: 10vh;
+    position: relative;
+    bottom: 60px;
+    padding-inline-start: 20px;
+    padding-left: 200px;
+    padding-top: 5px;
+  }
+  h4{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    outline-color: white;
+    outline: 10px;
+  }
+
+  img{
+    border-radius: 50%;
+    outline-offset: 5px;
+    outline-color: aliceblue;
+    outline-width: 5px;
+    outline-style: solid;
+    text-shadow: 10vh;
+    
+    
+  }
+  h4{
+    position: relative;
+    display: inline-block;
+    bottom: 70px;
+    padding-left: 94px;
+  }
+
+  h3{
+    font-size: 22px;
+    text-decoration: dotted;
+    outline-color: aliceblue;
+    padding: auto;
+    margin: auto;
+  }
+
+.repo-list{
+  position: initial;
+  column-count: 3;
+  background-color: aliceblue;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+a:link{
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  line-break: initial;
+  float: inline-end;
+  top: 10px;
+}
